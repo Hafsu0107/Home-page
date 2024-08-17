@@ -1,0 +1,634 @@
+/* Page-Start */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* sec-one-start */
+.homepage {
+  background-image: url(images/Mask\ group.png);
+  background-size: cover;
+  border-radius: 5px;
+}
+.black-friday {
+  background-color: #2f7875;
+  width: 100%;
+  height: 44px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19.36px;
+  border-radius: 55px;
+
+  text-align: center;
+}
+.discount {
+  padding: 11px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.right-to-run {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 70px;
+  color: #fff;
+}
+.run {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  max-width: 532px;
+  margin-left: 57%;
+  text-align: right;
+  color: #fff;
+  padding: 18px;
+}
+.header-components {
+  display: flex;
+  justify-content: space-around;
+  padding: 9px;
+}
+.navigations {
+  display: inline-flex;
+  column-gap: 27px;
+  list-style: none;
+  padding-top: 14px;
+}
+.header-icons {
+  padding: 13px;
+}
+
+.search-icon {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.people-icon {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: black;
+}
+.card-icon {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+svg {
+  padding: 6px;
+}
+.shop-now {
+  background-color: #fff;
+  color: black;
+  padding: 1.2rem 3.2rem;
+  border-radius: 60px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: medium;
+  margin-bottom: 15px;
+}
+a.shop-btn {
+  color: black;
+  list-style: none;
+}
+.tittle-one {
+  text-align: right;
+  margin-top: 21%;
+  margin-right: 11px;
+}
+/* sec-one-end */
+
+/* sec-two-start */
+h1.category {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 25.61px;
+  text-align: center;
+  padding: 60px;
+}
+
+.swiper {
+  width: 50%;
+  height: 50%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+/* html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+
+/* .slider {
+  display: flex;
+  gap: 2%;
+  justify-content: space-evenly;
+} */
+/* sec-two-end */
+
+/* sec-three-start */
+.flex-two {
+  display: flex;
+  justify-content: center;
+}
+.images {
+  position: relative;
+}
+.image-three {
+  position: absolute;
+  left: 10%;
+}
+.image-two {
+  position: absolute;
+  left: 8%;
+  z-index: 1;
+}
+ul.act {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 72.61px;
+  text-align: left;
+  padding-left: 265px;
+}
+a {
+  color: black;
+}
+/* sec-three-end */
+
+/* sec-four-start */
+h1.best-seller {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 49px;
+  font-weight: 300;
+  line-height: 72.61px;
+  text-align: center;
+  padding: 22px;
+}
+
+img.navy-socks {
+  background-image: url(images/rectangular.png);
+  border-radius: 13px;
+  width: 236px;
+  height: 306px;
+  transition: 0.9s ease-out;
+}
+img.navy-socks:hover {
+  transform: translateY(9px);
+}
+img.navy-socks:hover + .quick-now {
+  display: block;
+}
+
+.quick-now {
+  background-color: black;
+  color: #fff;
+  padding: 9px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 20px;
+  width: 192px;
+  display: none;
+}
+
+p {
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 21.78px;
+  color: #323232;
+}
+.prices {
+  display: flex;
+  margin-left: 150px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: grey;
+  opacity: 0.5;
+  font-size: 16px;
+}
+.current-price {
+  color: green;
+  margin-left: 13px;
+  font-weight: 500;
+}
+.selling-fast {
+  background-color: blue;
+  padding: 9px;
+  color: #fff;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  position: absolute;
+  right: 30%;
+}
+.sale {
+  background-color: green;
+  padding: 9px;
+  color: #fff;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 13px;
+  text-align: center;
+  border: none;
+  position: absolute;
+  right: 64%;
+}
+.tardly-belly {
+  position: relative;
+}
+img.grey-black-socks {
+  background-image: url(images/rectangular.png);
+  border-radius: 13px;
+  width: 236px;
+  height: 306px;
+  transition: 0.9s ease-out;
+}
+img.grey-black-socks:hover + .quick-now {
+  display: block;
+}
+
+img.grey-black-socks:hover {
+  transform: translateY(9px);
+}
+img.black-red-socks {
+  background-image: url(images/rectangular.png);
+  border-radius: 13px;
+  width: 236px;
+  height: 306px;
+  transition: 0.9s ease-out;
+}
+img.black-red-socks:hover + .quick-now {
+  display: block;
+}
+img.black-red-socks:hover {
+  transform: translateY(9px);
+}
+img.sky-blue-socks {
+  background-image: url(images/rectangular.png);
+  border-radius: 13px;
+  width: 236px;
+  height: 306px;
+  transition: 0.9s ease-out;
+}
+img.sky-blue-socks:hover + .quick-now {
+  display: block;
+}
+img.sky-blue-socks:hover {
+  transform: translateY(9px);
+}
+.seller-one {
+  display: flex;
+  cursor: pointer;
+  padding: 20px;
+  text-align: right;
+}
+/* sec-four-end */
+
+/* sec-five-start */
+h1.discover {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 72.61px;
+  text-align: center;
+  padding: 52px;
+}
+
+.card-column {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 32px;
+}
+/* sec-five-end */
+
+/* sec-six-start */
+.homepage-six-section {
+  background-color: #fff;
+}
+
+.rating {
+  display: flex;
+  cursor: pointer;
+}
+.reviews-rating {
+  position: relative;
+  top: -55%;
+}
+h1.reviews {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 77.45px;
+  text-align: right;
+  position: relative;
+  top: -51%;
+  left: -10%;
+}
+
+.green-box {
+  background-color: #4ab3aa;
+  border-radius: 20px;
+  max-width: 45%;
+  position: relative;
+  top: -499px;
+  left: 159px;
+}
+.green-box-two {
+  background-color: #4ab3aa;
+  border-radius: 20px;
+  max-width: 45%;
+  position: relative;
+  top: -479px;
+  left: 159px;
+}
+
+.green {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: right;
+  padding: 4px;
+}
+.review-stars {
+  margin-left: 72%;
+}
+/* sec-six-end */
+
+/* sec-seven-start */
+.proud-israel {
+  margin-left: 22%;
+}
+.made-israel {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 42.5px;
+  text-align: center;
+  max-width: 61%;
+  margin: auto;
+  padding: 29px;
+}
+/* sec-seven-end */
+
+/* sec-eight-start */
+.homepage-eight-section {
+  background-color: black;
+}
+.slider-two {
+  justify-content: space-evenly;
+  display: flex;
+}
+.mini-sec {
+  text-align: right;
+  position: relative;
+  top: -120px;
+  left: -14px;
+  padding: 5px;
+}
+h1.story-that-move {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 53px;
+  text-align: center;
+  color: #fff;
+  padding: 49px;
+}
+.mini-para {
+  color: #ffff;
+  text-align: right;
+  padding: 6px;
+}
+/* sec-eight-end */
+
+/* sec-nine-start */
+.company-logo {
+  display: flex;
+  gap: 9%;
+  padding: 21px;
+  justify-content: space-evenly;
+}
+/* sec-nine-end */
+
+/* sec-ten-start */
+.our-missions {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 70px;
+  text-align: right;
+  padding: 5px;
+  position: relative;
+  top: -141px;
+  left: -20px;
+}
+.ten-img {
+  text-align: right;
+}
+.mission {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 10px;
+  text-align: right;
+  color: #fff;
+}
+.inspire {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: right;
+  color: #fff;
+}
+.two-images {
+  display: flex;
+  gap: 10px;
+  padding: 13px;
+}
+.two-images {
+  margin-top: -550px;
+}
+
+.write {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 38.73px;
+  color: #fff;
+  text-align: right;
+  position: relative;
+  top: -15%;
+  left: -9px;
+}
+.tenis-img {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 38.73px;
+  color: #fff;
+  position: relative;
+  top: -53px;
+  left: -9px;
+  text-align: right;
+}
+/* sec-ten-end */
+
+/* last-sec-start */
+.homepage-last-section {
+  background-color: black;
+  color: #fff;
+  margin-top: -68px;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: right;
+  padding: 21px;
+}
+ul {
+  list-style: none;
+}
+li {
+  padding: 5px;
+}
+.stay {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 41.2px;
+  text-align: right;
+  color: lightgray;
+}
+.website-name {
+  text-align: right;
+  padding-right: 66px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  padding: 23px;
+}
+
+.policy {
+  display: flex;
+  gap: 82px;
+}
+/* last-sec-end */
+/* Page Complete */
+
+/* Mobile */
+
+@media screen and (max-width: 767px) {
+  .navigations {
+    display: none;
+  }
+  .seller-one {
+    display: flex;
+    flex-direction: column;
+  }
+  .homepage {
+    background-image: url(images/Mask\ group.png);
+    width: 100%;
+  }
+  .tittle-one {
+    text-align: center;
+  }
+  .run {
+    max-width: 100%;
+    margin: auto;
+  }
+  /* second-sec */
+  h1.category {
+    text-align: center;
+    font-size: 35px;
+    padding-right: 1px;
+  }
+  .slider {
+    display: flex;
+    flex-direction: column;
+    padding: 2.6rem 2.6rem 5rem;
+    max-width: 100%;
+  }
+  .activities {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 1.4rem;
+    text-align: right;
+  }
+  h1.best-seller {
+    text-align: center;
+  }
+  .card-column {
+    gap: 19px;
+  }
+  .rating {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .unfiltered {
+    width: 100%;
+    margin: auto;
+  }
+  .proud-israel {
+    text-align: center;
+  }
+  .made-israel {
+    max-width: 100%;
+    margin: auto;
+  }
+  .company-logo {
+    display: block;
+  }
+  .two-images {
+    display: none;
+  }
+  .ten-img {
+    max-width: 100%;
+    margin: auto;
+  }
+  .flex {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+  }
+}

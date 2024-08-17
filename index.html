@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Penguin Dojo</title>
+  </head>
+   <!-- Page Start -->
+  <body>
+    <!-- Homepage-sec-one-start -->
+    <section class="homepage">
+      <header>
+        <div class="black-friday">
+          <p class="discount">מבצע BLACK FRIDAY - עד 70% הנחה בכל האתר</p>
+        </div>
+        <div class="header-components">
+          <div class="header-icons">
+            <button class="search-icon">
+              <svg
+                class=""
+                width="35"
+                height="35"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="10.5012"
+                  cy="10.5011"
+                  r="7.75006"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></circle>
+                <path
+                  d="M16.2087 16.2009L21.0078 21"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+            <a
+              class="people-icon"
+              href="/account/login"
+              tabindex="0"
+              aria-label="חשבון"
+            >
+              <svg
+                class=""
+                width="35"
+                height="35"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="8"
+                  r="4.75"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                ></circle>
+                <path
+                  d="M20 21C20 16.5817 16.4183 13 12 13C7.58172 13 4 16.5817 4 21"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </a>
+            <button class="card-icon">
+              <div class="header_cart-icon">
+                <svg
+                  class=""
+                  width="35"
+                  height="35"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.1289 7H5.87112C4.81819 7 3.94559 7.81637 3.87555 8.86696L3.14222 19.867C3.06526 21.0213 3.98086 22 5.13778 22H18.8622C20.0192 22 20.9348 21.0213 20.8578 19.867L20.1245 8.86696C20.0544 7.81637 19.1818 7 18.1289 7Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  ></path>
+                  <path
+                    d="M16 10V6C16 3.79086 14.2091 2 12 2C9.79086 2 8 3.79086 8 6V10"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="square"
+                  ></path>
+                </svg>
+
+                <cart-count id="CartCount"></cart-count>
+              </div>
+            </button>
+          </div>
+
+          <div class="header-nav">
+            <ul class="navigations">
+              <li>
+                <a href="#" class="item-gift-card" aria-label="Gift card">
+                  <span class="underline-text__label">חנות הכל</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/collections/accessories"
+                  class="item--accessories"
+                  aria-label="Accessories"
+                >
+                  <span class="underline-text__label">אביזרים</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://penguindojo.com/tools/perfect-product-finder/sock-finder"
+                  class="item-sock-finder"
+                  aria-label="SOCK FINDER"
+                >
+                  <span class="underline-text__label"
+                    ><span style="color: #4ab3aa"
+                      ><strong>גרביים בהתאמה אישית</strong></span
+                    ></span
+                  >
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/pages/contact"
+                  class="item--contact"
+                  aria-label="Contact"
+                >
+                  <span class="underline-text__label">הנמכרים ביותר</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/collections/all-socks"
+                  class="item-women"
+                  aria-label="Women"
+                >
+                  <span class="underline-text__label">נשים</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/collections/all-socks"
+                  class="item-men"
+                  aria-label="Men"
+                >
+                  <span class="underline-text__label">גברים</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="logo-header">
+            <img
+              src="https://penguindojo.com/cdn/shop/files/logo_full.png?v=1721736690&width=600"
+              width="220px"
+              height="47.07px"
+              alt=""
+            />
+          </div>
+        </div>
+      </header>
+
+      <div class="tittle-one">
+        <h2 class="right-to-run">קנה אחד קבל אחד תן אחד</h2>
+        <p class="run">
+          עבור כל הזמנה, אנו נתרום פריט לשותף Right To Run כאשר אתה קונה את מבחר
+          הבגדים שלנו.
+        </p>
+        <button class="shop-now">
+          <a
+            class="shop-btn"
+            href="/collections/%D7%9B%D7%9C-%D7%94%D7%92%D7%A8%D7%91%D7%99%D7%99%D7%9D"
+            aria-label="SHOP NOW"
+            >SHOP NOW</a
+          >
+        </button>
+      </div>
+    </section>
+    <!-- sec-one-end -->
+
+      <!-- Homepage-second-sec-start -->
+      <h1 class="category">לקנות לפי נושאים</h1>
+      <section class="slider_container">
+        <div class="container">
+          <div class="swiper card_slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="shoes">
+                  <img src="images/pic-1.png" alt="" />
+                  </div>
+                  <div class="shoes">
+                     <img src="images/pic-2 small.png" alt=""  />
+                    </div>
+                  <div class="shoes"> 
+                   <img src="images/pic-3.png" alt=""  />
+                  </div>
+                <div class="shoes"> 
+                  <img src="images/pic-4.png" alt=""  />
+                  </div>
+                  <div class="shoes">
+                  <img src="images/pic-1.png" alt="" />
+                  </div>
+                  <div class="shoes">
+                     <img src="images/pic-2 small.png" alt=""  />
+                    </div>
+                  <div class="shoes"> 
+                   <img src="images/pic-3.png" alt=""  />
+                  </div>
+                <div class="shoes"> 
+                  <img src="images/pic-4.png" alt=""  />
+                  </div>
+
+
+
+              </div>
+            </div>
+             <div class="swiper-button-next"></div>
+             <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <div class="slider">
+        
+        
+      </div> -->
+     <!-- sec-two-end -->
+
+     <!-- Homepage-third-sec-start -->
+    <section class="homepage-third-page">
+      <div class="flex-two">
+      <div class="images">
+         <img src="images/image-one.png" alt="" class="image-one" height="400px">
+        <img src="images/image-two.png" alt="" class="image-two" height="400px">
+        <img src="images/image-three.png" alt="" class="image-three" height="400px">
+       
+      </div>
+      <div class="activities">
+          <ul class="act">
+            <li>
+              <a href="https://he.penguindojo.com/collections/%D7%92%D7%A8%D7%91%D7%99-%D7%A8%D7%99%D7%A6%D7%94">רץ</a>
+            </li>
+            <li>
+              <a href="https://he.penguindojo.com/collections/%D7%92%D7%A8%D7%91%D7%99-%D7%A8%D7%9B%D7%99%D7%91%D7%94">רכיבה על אופניים</a>
+            </li>
+            <li>
+              <a href="https://he.penguindojo.com/collections/%D7%92%D7%A8%D7%91%D7%99-%D7%A8%D7%9B%D7%99%D7%91%D7%94">סגנון חיים</a>
+            </li>
+            <li>
+              <a href="#">טיול רגלי</a>
+            </li>
+            <li>
+              <a href="#">טיול רגלי</a>
+            </li>
+          </ul>
+      </div>
+      
+    </section>
+    <!-- sec-three-end -->
+
+    <!-- Homepage-fourth-sec-start -->
+    <section class="homepage-fourth-section">
+      <h1 class="best-seller">האוספים האחרונים</h1>
+      <div class="seller-one">
+        <div class="lazy-foot">
+          <img class="navy-socks"
+            src="images/navy-blue-socks.png" 
+          /> 
+          <button class="quick-now">Quick now</button>
+          <div class="paragraphs">
+          <p >Lazy Foot - גרבי ריצה קצרות (ללא הופעה)</p>
+          <p>
+            ביקורות 36 <img src="images/Group 324.png" alt="" />
+            <p >₪ 67.00</p>
+            <div class="clr-img"><img src="images/Group 362.png" alt="" /></div>
+          </p>
+          </div>
+        </div>
+
+        <div class="tardly-belly">
+          <img class="grey-black-socks"
+            src="images/no show tardy belly running socks Gray-Black-Bright Red.png" 
+          /> 
+          <button class="quick-now">Quick now</button>
+          <button class="sale">Sale</button>
+          <button class="selling-fast">Selling-fast</button>
+          
+          <div class="paragraphs">
+          <p >טארדי בטן - גרבי ריצה קצרות (ללא הופעה)</p>
+          <p>
+           ביקורות 36<img src="images/Group 324.png" alt="" />
+           </p>
+           <div class="prices">
+            <p class="old-price">₪ 67.00</p>
+             <p class="current-price">₪ 59.00</p>
+             </div>
+            <div class="clr-img"><img src="images/Group 360.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="jockey-brightened">
+           <img class="black-red-socks"
+            src="images/crew-jockey-penguin-black-brightred (1) 1.png"  
+          /> 
+          <button class="quick-now">Quick now</button>
+          
+          <div class="paragraphs">
+          <p>ג'וקי פינגווין - גרבי חצי ריצה ורכיבה (צוות)</p>
+          <p>
+           36ביקורות<img src="images/Group 324.png" alt="" />
+            </p>
+           
+             <p >₪ 79.00</p>
+            <div class="clr-img"><img src="images/Group 361.png" alt="" />
+            </div>
+          </div>
+          
+        </div>
+        
+
+        <div class="brightcyan">
+           <img class="sky-blue-socks"
+            src="images/sky-blue-socks.png"  
+          /> 
+          <button class="quick-now">Quick now</button>
+          <div class="paragraphs">
+          <p>Lazy Foot - גרבי ריצה קצרות (ללא הופעה)</p>
+          <p>
+            36 ביקורות<img src="images/Group 324.png" alt="" />
+          </p>
+          <p >₪ 67.00</p>
+           <div class="clr-img"><img src="images/Group 364.png" alt="" />
+           </div>
+        </div>
+      </div>
+    </section>
+    <!-- sec-fourth-end -->
+
+    <!-- Homepage-sec-fifth-start -->
+    <section class="homepage-fifth-section">
+      <h1 class="discover">גלו את ההבחנה של 0.1% בגרב<br>י
+    הרצה המצויינים שלנו</h1>
+    <div class="card-column">
+      <div class="puzzle">
+        <img src="images/puzzle.svg" alt="">
+        <p>מושלם<br>
+         לְהַתְאִים</p>
+      </div>
+
+      <div class="tag">
+        <img src="images/tag.svg" alt="">
+        <p>יריד<br>
+      מחיר
+        </p>
+      </div>
+
+      <div class="crown">
+        <img src="images/crown.svg" alt="">
+        <p>פּרֶמיָה
+        <br>איכות       
+        </p>
+      </div>
+
+      <div class="leave">
+        <img src="images/leave.svg" alt="">
+        <p>אוּלְטרָה
+          <br>רַך  
+        </p>
+      </div>
+
+      <div class="review">
+        <img src="images/star.svg" alt="">
+        <p>150,000+
+          <br>ך  ביקורות
+        </p>
+      </div>
+
+      <div class="machine">
+        <img src="images/machine.svg" alt="">
+        <p>קַל
+          <br>לְטַפֵּל
+        </p>
+      </div>
+    </div>
+    </section>
+    <!-- sec-fifth-end -->
+
+    <!-- Homepage-sec-six-start -->
+    <section class="homepage-six-section">
+      <div class="rating">
+        <img src="images/shoes image.png" height="550px" alt="" >
+        <div class="unfiltered">
+          <img src="images/unfiltered.png" height="500px" alt="">
+          <h1 class="reviews">תשמע את<br> זה מ
+הניסיון! </h1> 
+        </div>
+      </div>
+      <div class="green-boxes">
+        <div class="green-box">
+         <p class="green">ממש אוהב את ערכות הלבוש הפעיל החדשות שלי! רציתי סט התאמה יפה עם מיתוג מינימלי ו-Revella נמסר!</p>
+         <p class="green">Kasey J, Sydney NSW</p>
+         <img src="images/review-stars.svg" class="review-stars" alt="">
+         </div>
+
+         <div class="green-box-two">
+         <p class="green">ממש אוהב את ערכות הלבוש הפעיל החדשות שלי! רציתי סט התאמה יפה עם מיתוג מינימלי ו-Revella נמסר!</p>
+         <p class="green">Stacey S, Broadbeach QLD</p>
+         <img src="images/review-stars.svg" class="review-stars" alt="">
+         </div>
+         </div>
+
+    </section>
+    <!-- sec-six-end -->
+
+    <!-- Homepage-sec-seven-start -->
+    <section class="homepage-seven-section">
+      <div class="proudly">
+        <img class="proud-israel" src="images/proudly.png" height="400px" alt="">
+        <p class="made-israel">Penguin Dojo הוא מותג גרבי ריצה ורכיבה שנולד בישראל ומיוצר ממש כאן! אנו מייצרים גרבי ריצה, רכיבה וכושר, מאמינים בסגנון ייחודי, לא מתפשרים על איכות ומבטיחים את המוצרים שלנו לכל החיים!</p>
+      </div>
+    </section>
+    <!-- sec-seven-end -->
+
+    <!-- HOmepage-sec-eight-start -->
+    <section class="homepage-eight-section">
+      <h1 class="story-that-move">סיפורים שזזים</h1>
+      <div class="slider-two">
+        <div class="running-img">
+          <div class="running"> 
+            <img src="images/run-pic.png"  height="400px">
+          </div>
+          <div class="mini-sec">
+            <p class="mini-para">להלן אובירי<br> ישעיניים לזהב</p>
+          <img  src="images/arrow-btn.svg" alt="">
+          </div>
+         
+           
+        </div>
+        <div class="rest">
+          <div class="rest-img">
+            <img src="images/rest-img.png" height="400px" alt="">
+          </div>
+          <div class="mini-sec">
+             <p class="mini-para">להלן אובירי<br> ישעיניים לזהב</p>
+          <img src="images/arrow-btn.svg" alt="">
+          </div>
+          </div>
+
+        <div class="laught">
+          <div class="laught-img">
+            <img src="images/laugh-img.png" height="400px" alt="">
+          </div>
+          <div class="mini-sec">
+            <p class="mini-para">עוזר המאמן של OAC,<br> קלסי קווין: "ביחד אנחנו עולים".</p>
+          <img src="images/arrow-btn.svg" alt="">
+          </div>
+          </div>
+
+        <div class="black">
+          <div class="blck-img">
+             <img src="images/black-white-img.png" height="400px" alt="">
+          </div>
+          <div class="mini-sec">
+            <p class="mini-para">גלה את <br>זטופק:10</p>
+          <img src="images/arrow-btn.svg" alt="">
+          </div>
+          </div>
+      </div>
+    </section>
+    <!-- sec-eight-end -->
+
+    <!-- Homepage-sec-nine-start -->
+    <section class="homepage-nine-section">
+      <div class="company-logo">
+        <div class="nikee"><img src="images/nikee-logo.jpg" width="200px" height="200px" alt=""></div>
+        <div class="jorden"> <img src="images/jordan-logo.jpg" width="200px" height="200px" alt=""></div>
+        <div class="adidas"> <img src="images/adidas.png"width="150px" height="150px" alt=""></div>
+        <div class="fila"><img src="images/fila-logo.png" width="200px" height="200px" alt=""></div>
+       
+        
+        
+       
+      </div>
+
+    </section>
+    <!-- sec-nine-end -->
+
+    <!-- Homepage-sec-ten-start -->
+    <section class="homepage-ten-section">
+      <div class="ten-img">
+         <img src="images/run-img.png" alt="" width="700px" height="450px" >
+      </div>
+      <div class="our-missions">
+        <img src="images/mission-btn.png" alt="">
+        <h1 class="mission">המשימה שלנו</h1>
+        <p class="inspire">להצית את רוח האדם באמצעות תנועה</p>
+      </div>
+      <div class="two-images">
+      <div class="first-image">
+        <img src="images/write-img.png" alt="" width="250px" height="250px" class="write-img">
+        <p class="write">מופעל על ידי הנדסה שוויצרית.</p>
+      </div>
+      <div class="second-image">
+        <img src="images/teneis.png" alt="" width="300px"  height="400pxs" class="table-tenies">
+      <p class="tenis-img">בהשראת ספורטאים.</p>
+      </div>
+      </div>
+    </section>
+    <!-- sec-ten-end -->
+
+    <!-- Homepage-last-sec -->
+    <footer>
+    <section class="homepage-last-section">
+      <div class="flex">
+        <div class="about">
+          <h2>על און</h2>
+          <ul>
+          <li>צור קשר</li>
+          <li>לִקְנוֹת</li>
+          <li>משקיעים</li>
+          <li>משקיעים</li>
+          </ul>
+        </div>
+
+        <div class="help-support">
+          <h2>עזרה תמיכה</h2>
+          <ul>
+            <li>צור קשר</li>
+            <li>שאלות נפוצות</li>
+            <li>משלוח ומסירה</li>
+            <li>החזרות והחלפות</li>
+          </ul>
+        </div>
+
+        <div class="shop">
+          <h2 class="shop-heading">הצטרף לקהילת און</h2>
+          <h2 class="shop-heading">סטטוס הזמנה והחזרה</h2>
+          <h2 class="shop-heading">הפנה חבר</h2>
+          <h2 class="shop-heading">כרטיסי ברכה</h2>
+          <h2 class="shop-heading">חנויות</h2>
+        </div>
+
+        <div class="stay-in-the-loops">
+          <img src="images/footer-logo.png" alt="" class="footer-logo">
+          <p class="stay">הישאר מעודכן, עם הצעות בלעדיות ותצוגות מקדימות של מוצרים. <br> אימייל</p>
+        </div>
+      </div>
+      <div class="website-name"> Penguin Dojo 2023 ©</div>
+      <div class="links">
+        <div class="tiktok-ig">
+          <img src="images/Group 117.png" alt="" class="tiktok-ig">
+
+        </div>
+        
+        <ul class="policy">
+          <li>מדיניות הפרטיות</li>
+          <li>נְגִישׁוּת</li>
+          <li>חוֹתָם</li>
+          <li>דיווח על פגיעות</li>
+          <li>אל תמכור את המידע האישי שלי</li>
+          <li>הגדרות הסכמה</li>
+        </ul>
+      </div>
+    </section>
+    <script src="app.js"></script>
+        <!-- Swiper JS -->
+ 
+    </footer>
+    <!-- last-sec-end -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".card_slider", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  </body>
+</html>
+ <!-- Homepage-complete -->
