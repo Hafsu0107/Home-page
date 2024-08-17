@@ -515,6 +515,8 @@ h1.story-that-move {
   background-color: black;
   color: #fff;
   margin-top: -68px;
+  max-width: 110%;
+  padding: 14px;
 }
 .flex {
   display: flex;
