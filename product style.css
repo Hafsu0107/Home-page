@@ -166,7 +166,7 @@ a.shop-btn {
   color: #484848;
   font-size: 23px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 22px;
   text-align: right;
   list-style: none;
 }
@@ -244,6 +244,7 @@ h3.tardly {
   display: flex;
   text-align: right;
   margin-right: 24px;
+  padding: 5%;
 }
 .fit {
   font-size: 36px;
