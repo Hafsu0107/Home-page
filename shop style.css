@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* sec-one-start */
+.black-friday {
+  background-color: #2f7875;
+  width: 100%;
+  height: 44px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19.36px;
+  border-radius: 55px;
+  text-align: center;
+}
+.discount {
+  padding: 11px;
+  color: #fff;
+  font-size: 15px;
+}
+.header-components {
+  display: flex;
+  justify-content: space-around;
+  padding: 9px;
+  cursor: pointer;
+}
+.navigations {
+  display: inline-flex;
+  column-gap: 27px;
+  list-style: none;
+  padding-top: 14px;
+}
+.header-icons {
+  padding: 13px;
+}
+a {
+  color: #000000;
+}
+
+.search-icon {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.people-icon {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: black;
+}
+.card-icon {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+svg {
+  padding: 6px;
+}
+.shop-now {
+  background-color: #fff;
+  color: black;
+  padding: 1.2rem 3.2rem;
+  border-radius: 60px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-family: "system-ui";
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: medium;
+  margin-bottom: 15px;
+}
+a.shop-btn {
+  color: black;
+  list-style: none;
+}
