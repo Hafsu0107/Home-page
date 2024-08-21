@@ -123,7 +123,8 @@ a.shop-btn {
   font-size: 18px;
   font-weight: 100;
   line-height: 33.89px;
-  border-bottom: 1px solid var(rgb(86, 80, 80));
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
 }
 .plus {
   display: flex;
