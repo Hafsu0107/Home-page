@@ -94,6 +94,7 @@ a.shop-btn {
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
+  color: #fff;
 }
 .sub-ul {
   display: flex;
@@ -247,13 +248,63 @@ img.black-red-socks:hover {
   color: #fff;
   padding: 7px;
   border-radius: 5px;
-  padding-right: 25px;
   font-size: 20px;
   font-weight: 400;
   line-height: 24.2px;
   text-align: center;
+  width: 16%;
 }
 .show {
   text-align: center;
 }
 /* sec-two-end */
+/* last-sec-start */
+.p-page-last-section {
+  margin-top: 3%;
+  background-color: black;
+  color: #fff;
+  max-width: 110%;
+  padding: 14px;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: right;
+  padding: 21px;
+}
+.second {
+  list-style: none;
+  line-height: 32px;
+}
+li {
+  padding: 5px;
+}
+.flag {
+  text-align: right;
+  padding-right: 72px;
+}
+.stay {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 41.2px;
+  text-align: right;
+  color: lightgray;
+}
+.website-name {
+  text-align: right;
+  padding-right: 66px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  padding: 23px;
+}
+
+.policy {
+  display: flex;
+  gap: 82px;
+  list-style: none;
+}
