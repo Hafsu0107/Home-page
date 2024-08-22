@@ -118,9 +118,9 @@ h1.best-seller {
 }
 
 img.navy-socks {
-  background-image: url(images/rectangular.png);
+  background-image: url(images/shope-page-rec.png);
   border-radius: 13px;
-  width: 236px;
+  width: 282px;
   height: 306px;
   transition: 0.9s ease-out;
 }
@@ -193,7 +193,7 @@ p {
 img.grey-black-socks {
   background-image: url(images/rectangular.png);
   border-radius: 13px;
-  width: 236px;
+  width: 282px;
   height: 306px;
   transition: 0.9s ease-out;
 }
@@ -207,7 +207,7 @@ img.grey-black-socks:hover {
 img.black-red-socks {
   background-image: url(images/rectangular.png);
   border-radius: 13px;
-  width: 236px;
+  width: 282px;
   height: 306px;
   transition: 0.9s ease-out;
 }
@@ -224,4 +224,36 @@ img.black-red-socks:hover {
   padding: 20px;
   text-align: right;
 }
-/* sec-four-end */
+.new-collection {
+  background-image: url(images/runing-img.png);
+}
+.new {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43.57px;
+}
+.collection {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  background-color: black;
+  color: #fff;
+  padding: 8px;
+  border-radius: 14px;
+}
+.show-more {
+  background-color: black;
+  color: #fff;
+  padding: 7px;
+  border-radius: 5px;
+  padding-right: 25px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  text-align: center;
+}
+.show {
+  text-align: center;
+}
+/* sec-two-end */
