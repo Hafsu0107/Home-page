@@ -75,3 +75,15 @@ a.shop-btn {
   color: black;
   list-style: none;
 }
+.women-socks {
+  background-image: url(images/women-socks.png);
+  background-size: cover;
+  text-align: right;
+}
+.w.socks-heading {
+  font-family: Inter;
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 116.18px;
+  text-align: right;
+}
