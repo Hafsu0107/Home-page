@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* sec-one-start */
 .black-friday {
   background-color: #2f7875;
@@ -75,15 +78,150 @@ a.shop-btn {
   color: black;
   list-style: none;
 }
-.women-socks {
+.womens {
   background-image: url(images/women-socks.png);
-  background-size: cover;
+  /* background-size: cover; */
   text-align: right;
+  padding: 36px;
+  color: #fff;
 }
-.w.socks-heading {
-  font-family: Inter;
+.w-socks-heading {
   font-size: 96px;
   font-weight: 500;
   line-height: 116.18px;
+}
+.women-socks-para {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.sub-ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 32px;
+}
+.hidden {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+}
+/* sec-four-start */
+h1.best-seller {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 49px;
+  font-weight: 300;
+  line-height: 72.61px;
+  text-align: center;
+  padding: 22px;
+}
+
+img.navy-socks {
+  background-image: url(images/rectangular.png);
+  border-radius: 13px;
+  width: 236px;
+  height: 306px;
+  transition: 0.9s ease-out;
+}
+img.navy-socks:hover {
+  transform: translateY(9px);
+}
+img.navy-socks:hover + .quick-now {
+  display: block;
+}
+
+.quick-now {
+  background-color: black;
+  color: #fff;
+  padding: 9px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 20px;
+  width: 192px;
+  display: none;
+}
+
+p {
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 21.78px;
+  color: #323232;
+}
+.prices {
+  display: flex;
+  margin-left: 150px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: grey;
+  opacity: 0.5;
+  font-size: 16px;
+}
+.current-price {
+  color: green;
+  margin-left: 13px;
+  font-weight: 500;
+}
+.selling-fast {
+  background-color: blue;
+  padding: 9px;
+  color: #fff;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  position: absolute;
+  right: 30%;
+}
+.sale {
+  background-color: green;
+  padding: 9px;
+  color: #fff;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 13px;
+  text-align: center;
+  border: none;
+  position: absolute;
+  right: 64%;
+}
+.tardly-belly {
+  position: relative;
+}
+img.grey-black-socks {
+  background-image: url(images/rectangular.png);
+  border-radius: 13px;
+  width: 236px;
+  height: 306px;
+  transition: 0.9s ease-out;
+}
+img.grey-black-socks:hover + .quick-now {
+  display: block;
+}
+
+img.grey-black-socks:hover {
+  transform: translateY(9px);
+}
+img.black-red-socks {
+  background-image: url(images/rectangular.png);
+  border-radius: 13px;
+  width: 236px;
+  height: 306px;
+  transition: 0.9s ease-out;
+}
+img.black-red-socks:hover + .quick-now {
+  display: block;
+}
+img.black-red-socks:hover {
+  transform: translateY(9px);
+}
+.seller-one {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  padding: 20px;
   text-align: right;
 }
+/* sec-four-end */
