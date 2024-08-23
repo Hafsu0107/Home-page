@@ -80,7 +80,7 @@ a.shop-btn {
 }
 .womens {
   background-image: url(images/women-socks.png);
-  /* background-size: cover; */
+  background-size: cover;
   text-align: right;
   padding: 36px;
   color: #fff;
@@ -139,7 +139,7 @@ img.navy-socks:hover + .quick-now {
   cursor: pointer;
   font-size: 15px;
   border-radius: 20px;
-  max-width: 192px;
+  width: 192px;
   display: none;
 }
 
@@ -382,4 +382,33 @@ li {
 }
 .seller-flex {
   display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .navigations {
+    display: none;
+  }
+  .discount {
+    min-height: 4.2rem;
+  }
+  .womens {
+    width: 100%;
+    align-items: center;
+  }
+  .women-socks-para {
+    display: none;
+  }
+  .sub-ul {
+    display: none;
+  }
+  .hidden {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+  .seller-one {
+    row-gap: 4rem;
+  }
+  .jockey-brightened {
+    display: none;
+  }
 }
