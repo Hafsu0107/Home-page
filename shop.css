@@ -226,12 +226,19 @@ img.black-red-socks:hover {
   text-align: right;
 }
 .new-collection {
-  background-image: url(images/runing-img.png);
+  background-image: url(images/run-111.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20%;
+  border-radius: 11px;
 }
 .new {
-  font-size: 36px;
+  font-size: 27px;
   font-weight: 500;
   line-height: 43.57px;
+  margin-top: 296px;
+  margin-right: 11px;
 }
 .collection {
   font-size: 13px;
@@ -242,6 +249,7 @@ img.black-red-socks:hover {
   color: #fff;
   padding: 8px;
   border-radius: 14px;
+  margin-right: 13px;
 }
 .show-more {
   background-color: black;
@@ -279,6 +287,7 @@ img.black-red-socks:hover {
 }
 li {
   padding: 5px;
+  list-style: none;
 }
 .flag {
   text-align: right;
@@ -360,4 +369,17 @@ li {
   line-height: 24.2px;
   padding: 5px;
   text-align: right;
+}
+.color-one {
+  display: flex;
+  border-bottom: 1px solid black;
+  justify-content: end;
+}
+.flex-section {
+  background-color: #fff;
+  max-width: 24%;
+  margin-left: 76%;
+}
+.seller-flex {
+  display: flex;
 }
