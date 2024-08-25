@@ -78,3 +78,69 @@ a.shop-btn {
   color: black;
   list-style: none;
 }
+/* sec-one-start */
+.step-sec {
+  display: flex;
+}
+.our-story-sec {
+  display: flex;
+}
+.performance-sec {
+  display: flex;
+}
+.quality-sec {
+  display: flex;
+}
+.steps {
+  margin-top: 109px;
+}
+.step-heading {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 58.09px;
+  text-align: center;
+}
+.welcome {
+  font-size: 21px;
+  width: 66%;
+  margin: auto;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #676767;
+}
+.our-story-heading {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58.09px;
+  text-align: center;
+}
+.our-story-p {
+  font-size: 19px;
+  width: 70%;
+  margin: auto;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #676767;
+}
+.our-story-p-two {
+  font-size: 19px;
+  width: 70%;
+  margin: auto;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #676767;
+  padding-top: 33px;
+}
+.our-story-p-three {
+  font-size: 20px;
+  width: 70%;
+  margin: auto;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #676767;
+  padding-top: 33px;
+}
