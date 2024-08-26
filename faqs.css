@@ -98,11 +98,21 @@ a.shop-btn {
   padding-top: 37px;
   margin: auto;
 }
-.pay-order {
-}
 .plus {
   display: flex;
   margin-left: 399px;
+}
+.minus {
+  display: flex;
+  margin-left: 399px;
+}
+.restock-again {
+  width: 59%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: right;
 }
 
 .product-heading {
