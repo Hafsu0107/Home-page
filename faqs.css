@@ -98,6 +98,12 @@ a.shop-btn {
   padding-top: 37px;
   margin: auto;
 }
+.pay-order {
+}
+.plus {
+  display: flex;
+  margin-left: 399px;
+}
 
 .product-heading {
   font-size: 36px;
