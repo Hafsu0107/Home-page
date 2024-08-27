@@ -124,6 +124,7 @@ a.shop-btn {
 }
 .two-btns {
   text-align: center;
+  margin-top: 5%;
 }
 .one {
   border-radius: 42px;
@@ -203,4 +204,134 @@ a.shop-btn {
   font-weight: 500;
   line-height: 25px;
   text-align: center;
+  color: #676767;
 }
+.black-line- {
+  text-align: center;
+  line-height: 30px;
+}
+.charge-btn {
+  text-align: center;
+  line-height: 109px;
+}
+.charge-more {
+  background-color: #fff;
+  padding: 12px;
+  width: 254px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.white {
+  background-color: #fff;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+}
+/* sec-two-end */
+
+/* sec-three-start */
+.c-p-sec-four {
+  background-image: url(images/white-socks.png);
+  background-size: cover;
+}
+.let-heading {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58.09px;
+  text-align: center;
+  color: #fff;
+}
+.cool-benefits {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+.let {
+  margin-top: 51px;
+  padding: 45px;
+}
+.register {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  width: 99px;
+  padding: 8px;
+  border-radius: 13px;
+  border: none;
+}
+.let-btns {
+  text-align: center;
+  line-height: 65px;
+}
+.email-addres {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: right;
+  width: 221px;
+  padding: 6px;
+  border-radius: 12px;
+  background-color: transparent;
+  color: #fff;
+  border-color: aliceblue;
+}
+/* sec-three-end */
+
+/* last-sec-start */
+.homepage-last-section {
+  background-color: black;
+  color: #fff;
+  max-width: 110%;
+  padding: 14px;
+  margin-top: 30px;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: right;
+  padding: 21px;
+}
+.second {
+  list-style: none;
+  line-height: 32px;
+}
+li {
+  padding: 5px;
+}
+.flag {
+  text-align: right;
+  padding-right: 72px;
+}
+.stay {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 41.2px;
+  text-align: right;
+  color: lightgray;
+}
+.website-name {
+  text-align: right;
+  padding-right: 66px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  padding: 23px;
+}
+
+.policy {
+  display: flex;
+  gap: 82px;
+  list-style: none;
+}
+/* last-sec-end */
