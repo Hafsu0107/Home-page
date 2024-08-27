@@ -198,3 +198,9 @@ a.shop-btn {
   margin-right: 20px;
   margin-top: 8px;
 }
+.seen-heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+}
