@@ -226,10 +226,15 @@ a.shop-btn {
 .white {
   background-color: #fff;
   color: black;
-  font-size: 20px;
+  width: 53px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 25px;
-  text-align: left;
+  text-align: center;
+  border-radius: 7px;
+  border: none;
+  margin-left: -121px;
+  margin-top: 7px;
 }
 /* sec-two-end */
 
