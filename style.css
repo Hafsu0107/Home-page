@@ -113,8 +113,12 @@ h1.category {
   text-align: center;
   padding: 60px;
 }
+.shoes-flex{
+  display: flex;
+  justify-content: space-evenly;
+}
 
-.swiper {
+/* .swiper {
   width: 50%;
   height: 50%;
 }
@@ -133,7 +137,7 @@ h1.category {
   width: 50%;
   height: 50%;
   object-fit: cover;
-}
+} */
 /* html,
 body {
   position: relative;
