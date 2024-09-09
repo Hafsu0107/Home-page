@@ -113,7 +113,7 @@ h1.category {
   text-align: center;
   padding: 60px;
 }
-.shoes-flex{
+.shoes-flex {
   display: flex;
   justify-content: space-evenly;
 }
@@ -161,6 +161,10 @@ body {
 /* sec-two-end */
 
 /* sec-three-start */
+.homepage-third-page {
+  margin-top: 10%;
+}
+
 .flex-two {
   display: flex;
   justify-content: center;
@@ -319,7 +323,6 @@ img.sky-blue-socks:hover {
   text-align: right;
 }
 /* sec-four-end */
-
 
 /* sec-five-start */
 h1.discover {
@@ -645,5 +648,3 @@ li {
     text-align: center;
   }
 }
-
-/
