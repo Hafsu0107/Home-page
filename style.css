@@ -13,7 +13,7 @@ header {
   background-image: url(images/Mask\ group.png);
   background-size: cover;
   height: 100vh;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px 29px 29px;
   padding: 15px 5px 5px 5px;
 }
 .black-friday {
@@ -103,7 +103,7 @@ a.shop-btn {
   color: black;
   list-style: none;
 }
-.tittle-one {
+.title-one {
   text-align: right;
   margin-top: 181px;
   margin-right: 11px;
@@ -658,7 +658,7 @@ li {
     background-image: url(images/Mask\ group.png);
     width: 100%;
   }
-  .tittle-one {
+  .title-one {
     text-align: center;
   }
   .run {
