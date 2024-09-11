@@ -244,18 +244,22 @@ body {
 .images {
   position: relative;
 }
-.images-one {
+.image-two {
   border-radius: 32px;
+  transform: rotate(6deg);
+  margin-left: 48px;
 }
 
-.image-three {
+.image-one {
   position: absolute;
   left: 10%;
   border-radius: 32px;
+  transform: rotate(9deg);
+  z-index: -1;
 }
-.image-two {
+.image-three {
   position: absolute;
-  left: 8%;
+  left: 11%;
   z-index: 1;
   border-radius: 32px;
   transform: rotate(-6deg);
@@ -281,7 +285,7 @@ h1.best-seller {
   font-weight: 300;
   line-height: 72.61px;
   text-align: center;
-  padding: 22px;
+  padding: 38px;
 }
 
 img.navy-socks {
