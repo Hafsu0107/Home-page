@@ -12,8 +12,9 @@ body {
 header {
   background-image: url(images/Mask\ group.png);
   background-size: cover;
-  height: 181vh;
-  border-radius: 30px;
+  height: 100vh;
+  border-radius: 0px 0px 20px 20px;
+  padding: 15px 5px 5px 5px;
 }
 .black-friday {
   background-color: #2f7875;
@@ -24,7 +25,7 @@ header {
   margin: auto;
   font-weight: 500;
   line-height: 19.36px;
-  border-radius: 18px;
+  border-radius: 16px;
 
   text-align: center;
 }
@@ -121,20 +122,72 @@ h2.category {
 }
 .pic-one {
   background-image: url(images/backgroung\ img\ pic-one.png);
+  background-repeat: no-repeat;
   background-size: cover;
-  width: 19%;
+  width: 280px;
+  height: 437px;
+  border-radius: 12px;
 }
 .run-shoes {
-  color: black;
-
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 43.57px;
+  color: #fff;
+  font-size: 27px;
+  text-align: center;
 }
-.shoes-flex {
+.arrow {
+  border-radius: 20px;
+  width: 94px;
+  background-color: #e8e8e833;
+  border-color: #fff;
+  padding: 13px;
+}
+.full-socks {
+  text-align: center;
+  padding-top: 184px;
+  line-height: 94px;
+}
+.pic-two {
+  background-image: url(images/black-socks.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 437px;
+  border-radius: 12px;
+}
+.black-socks {
+  text-align: center;
+  padding-top: 184px;
+  line-height: 94px;
+}
+.pic-three {
+  background-image: url(images/greyish-socks.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 437px;
+  border-radius: 12px;
+}
+.greyish-socks {
+  text-align: center;
+  padding-top: 184px;
+  line-height: 94px;
+}
+.pic-four {
+  background-image: url(images/blue-socks.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 437px;
+  border-radius: 12px;
+}
+.blue-socks {
+  text-align: center;
+  padding-top: 184px;
+  line-height: 94px;
+}
+
+.shoes-flexx {
   display: flex;
   justify-content: space-evenly;
-  flex-direction: row;
 }
 
 /* .swiper {
