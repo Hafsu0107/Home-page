@@ -233,7 +233,7 @@ body {
 /* sec-two-end */
 
 /* sec-three-start */
-.homepage-third-page {
+.homepage-third-sec {
   padding: 78px 0px 60px 0px;
 }
 
@@ -241,7 +241,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.images {
+.category-img {
   position: relative;
 }
 .image-two {
