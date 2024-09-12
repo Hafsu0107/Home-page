@@ -124,7 +124,7 @@ h2.category {
   background-image: url(images/backgroung\ img\ pic-one.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 280px;
+  width: 289px;
   height: 437px;
   border-radius: 12px;
 }
@@ -149,7 +149,7 @@ h2.category {
   background-image: url(images/black-socks.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 280px;
+  width: 289px;
   height: 437px;
   border-radius: 12px;
 }
@@ -162,7 +162,7 @@ h2.category {
   background-image: url(images/greyish-socks.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 280px;
+  width: 289px;
   height: 437px;
   border-radius: 12px;
 }
@@ -175,7 +175,7 @@ h2.category {
   background-image: url(images/blue-socks.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 280px;
+  width: 289px;
   height: 437px;
   border-radius: 12px;
 }
@@ -286,6 +286,11 @@ h2.best-seller {
   line-height: 72.61px;
   text-align: center;
   padding: 38px;
+}
+.lazy-foor-img {
+  background-image: url(images/lazy-foot-background.png);
+  background-size: cover;
+  transition: 1.5ms;
 }
 
 img.navy-socks {
@@ -665,7 +670,7 @@ li {
     display: flex;
     flex-direction: column;
   }
-  .homepage {
+  .header {
     background-image: url(images/Mask\ group.png);
     width: 100%;
   }
@@ -694,7 +699,7 @@ li {
     margin-bottom: 1.4rem;
     text-align: right;
   }
-  h1.best-seller {
+  h2.best-seller {
     text-align: center;
   }
   .card-column {
