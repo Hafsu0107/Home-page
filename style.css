@@ -287,7 +287,7 @@ h2.best-seller {
   text-align: center;
   padding: 38px;
 }
-.lazy-foor-img {
+.lazy-foot {
   background-image: url(images/lazy-foot-background.png);
   background-size: cover;
   transition: 1.5ms;
