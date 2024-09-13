@@ -287,14 +287,51 @@ h2.best-seller {
   text-align: center;
   padding: 38px;
 }
-.lazy-foot-img {
+.socks-background-img {
+  background-image: url(images/navy-blue-socks.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  width: 294px;
+  height: 303px;
+}
+.background-img-two {
+  background-image: url(images/black-half-socks.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  width: 294px;
+  height: 303px;
+}
+.background-img-three {
+  background-image: url(images/full-socks.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  width: 294px;
+  height: 303px;
+}
+.background-img-four {
+  back;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  width: 294px;
+  height: 303px;
+}
+
+/* .lazy-foot-img {
   background-image: url(images/lazy-foot-background.png);
   transition: 0.5s ease-out;
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #f4f4f4;
   border-radius: 20px;
-}
+} */
 /* .lazy-foot:hover {
   transform:
 } */
@@ -404,12 +441,15 @@ img.black-red-socks:hover {
   transform: translateY(9px);
 }
 img.sky-blue-socks {
-  background-image: url(images/rectangular.png);
+  background-image: url(images/navy-blue-smallpics.png);
   border-radius: 13px;
   width: 236px;
   height: 306px;
   transition: 0.9s ease-out;
+  width: 294px;
+  height: 303px;
 }
+
 img.sky-blue-socks:hover + .quick-now {
   display: block;
 }
