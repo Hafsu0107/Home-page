@@ -286,7 +286,7 @@ h2.best-seller {
   line-height: 184.61px;
   text-align: center;
 }
-.socks-background-img {
+.background-img {
   background-image: url(images/navy-blue-smallpics.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -296,7 +296,7 @@ h2.best-seller {
   transition: transform 2s; /* Animation */
   height: 312px;
 }
-.socks-background-img:hover {
+.background-img:hover {
   transform: scale(1.1);
 }
 
