@@ -378,19 +378,20 @@ h2.best-seller {
 } */
 .prices {
   display: flex;
-  margin-left: 150px;
+  justify-content: flex-end;
+  line-height: 42.15px;
+  gap: 14px;
 }
 
 .old-price {
   text-decoration: line-through;
   color: grey;
   opacity: 0.5;
-  font-size: 16px;
+  font-size: 14px;
 }
 .current-price {
   color: green;
-  margin-left: 13px;
-  font-weight: 500;
+  font-weight: 100;
 }
 .selling-fast {
   background-color: blue;
@@ -414,7 +415,7 @@ h2.best-seller {
   position: absolute;
   right: 64%;
 }
-.tardly-belly {
+/* .tardly-belly {
   position: relative;
 }
 img.grey-black-socks {
@@ -426,9 +427,9 @@ img.grey-black-socks {
 }
 img.grey-black-socks:hover + .quick-now {
   display: block;
-}
+} */
 
-img.grey-black-socks:hover {
+/* img.grey-black-socks:hover {
   transform: translateY(9px);
 }
 img.black-red-socks {
@@ -452,14 +453,14 @@ img.sky-blue-socks {
   transition: 0.9s ease-out;
   width: 294px;
   height: 303px;
-}
+} */
 
-img.sky-blue-socks:hover + .quick-now {
+/* img.sky-blue-socks:hover + .quick-now {
   display: block;
 }
 img.sky-blue-socks:hover {
   transform: translateY(9px);
-}
+} */
 .seller-one {
   display: flex;
   cursor: pointer;
