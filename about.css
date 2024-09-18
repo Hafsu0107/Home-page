@@ -1,25 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-body {
-  /* font-family: "Inter", "sans-serif"; */
 }
 /* Header */
 .black-friday {
   background-color: #2f7875;
   width: 98%;
   height: 44px;
-
   font-size: 15px;
   margin: auto;
   font-weight: 500;
   line-height: 19.36px;
   border-radius: 16px;
-
   text-align: center;
 }
 .discount {
@@ -27,25 +21,14 @@ body {
   color: #fff;
   font-size: 14px;
 }
-
-.right-to-run {
-  font-size: 50px;
-  font-weight: 600;
-  line-height: 83px;
-  color: #fff;
-}
-.run {
-  font-size: 24px;
-  font-weight: 500;
-  width: 48%;
-  color: #fff;
-  line-height: 36px;
-  margin-left: 51%;
-}
 .top-bar {
   display: flex;
   justify-content: space-between;
   padding: 9px;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 .navigations {
   display: inline-flex;
@@ -76,28 +59,17 @@ body {
 svg {
   padding: 6px;
 }
-.shop-now {
-  background-color: #fff;
-  margin-top: 15px;
-  margin-right: 6px;
-  color: black;
-  border-radius: 65.77px;
-  border: 1px solid transparent;
-  width: 125px;
-  cursor: pointer;
-  font-weight: lighter;
-
-  padding: 19px;
-  font-size: 15px;
-}
-a.shop-btn {
-  color: black;
-  list-style: none;
-}
 /* sec-one-start */
 .step-sec {
   display: flex;
 }
+.img-one {
+  margin-left: 15px;
+}
+.run-people {
+  margin-left: 15px;
+}
+
 .our-story-sec {
   display: flex;
   margin-top: 41px;
@@ -226,7 +198,7 @@ a.shop-btn {
 /* sec-one-end */
 /* sec-two-start */
 .c-p-sec-four {
-  background-image: url(images/red-shoes-pic.png);
+  background-image: url(images/abous\ as\ pic.png);
   background-size: cover;
 }
 .let-heading {
@@ -271,7 +243,7 @@ a.shop-btn {
   border-radius: 12px;
   background-color: transparent;
   color: #fff;
-  border-color: aliceblue;
+  border: 1px solid #fff;
 }
 /* sec-two-end */
 
