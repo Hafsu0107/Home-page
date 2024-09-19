@@ -66,6 +66,9 @@ svg {
 /* sec-one-start */
 .faqs-one {
   text-align: center;
+  width: 790px;
+  margin: auto;
+  text-align: right;
 }
 .frequently-heading {
   font-size: 48px;
@@ -77,9 +80,10 @@ svg {
   font-size: 24px;
   font-weight: 400;
   line-height: 40px;
-  max-width: 64%;
+  max-width: 88%;
   color: #676767;
   padding-top: 60px;
+  text-align: center;
   margin: auto;
 }
 .plus {
@@ -91,44 +95,43 @@ svg {
   color: #676767;
   font-weight: 500;
   line-height: 29px;
-  margin-left: 194px;
   border-bottom: 1px solid black;
+  text-align: right;
 }
 .stock-p {
   font-size: 20px;
   color: #676767;
   font-weight: 500;
   line-height: 29px;
-  margin-left: 281px;
+  border-bottom: 1px solid black;
 }
 .r-p {
   font-size: 20px;
   color: #676767;
   font-weight: 500;
   line-height: 29px;
-  margin-left: 368px;
 }
 .cnfrm-p {
   font-size: 20px;
   color: #676767;
   font-weight: 500;
   line-height: 29px;
-  margin-left: 293px;
+  border-bottom: 1px solid black;
 }
 .sold-p {
   font-size: 20px;
   color: #676767;
   font-weight: 500;
   line-height: 29px;
-  margin-left: 242px;
+  border-bottom: 1px solid black;
 }
 .minus {
   display: flex;
-  margin-left: 399px;
+  margin-left: 358px;
 }
 .restock-again {
-  width: 59%;
-  margin: auto;
+  width: 89%;
+  margin-left: 11%;
   font-size: 20px;
   font-weight: 400;
   line-height: 29px;
@@ -137,6 +140,8 @@ svg {
 }
 
 .product-heading {
+  border-bottom: 1px solid black;
+
   font-size: 36px;
   font-weight: 500;
   line-height: 43.57px;
@@ -148,6 +153,7 @@ svg {
   font-size: 36px;
   font-weight: 500;
   line-height: 80.57px;
+  border-bottom: 1px solid black;
 }
 .return {
   font-size: 36px;
