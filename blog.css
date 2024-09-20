@@ -156,6 +156,14 @@ a.read-more {
   text-align: center;
   margin-top: 47px;
 }
+.background-img {
+  background-image: url(images/two-people-run.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 409px;
+  height: 266px;
+  border-radius: 15px;
+}
 .month-para {
   font-size: 12px;
   font-weight: 500;
