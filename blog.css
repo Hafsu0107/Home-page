@@ -202,7 +202,8 @@ a.read-more {
   line-height: 22px;
   text-align: right;
   color: #676767;
-  width: 118%;
+  width: 115%;
+  text-wrap: balance;
   padding-right: 19%;
   margin-top: 8px;
 }
