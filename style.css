@@ -718,6 +718,7 @@ h2.story-that-move {
 }
 .ten-img {
   text-align: right;
+  margin-top: 5px;
 }
 .mission {
   font-size: 40px;
@@ -768,7 +769,7 @@ h2.story-that-move {
 .homepage-last-section {
   background-color: black;
   color: #fff;
-  margin-top: -68px;
+  margin-top: -7px;
   max-width: 110%;
   padding: 14px;
 }
