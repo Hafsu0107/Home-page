@@ -623,10 +623,10 @@ h2.reviews {
   width: 274px;
 }
 
-.mini-sec {
+.run-sec {
   text-align: right;
   position: relative;
-  top: -120px;
+  top: -152px;
   left: -14px;
   padding: 5px;
 }
@@ -638,10 +638,44 @@ h2.story-that-move {
   color: #fff;
   padding: 49px;
 }
-.mini-para {
+.left-arrow {
+  height: 40px;
+  width: 75px;
+  background-color: #e8e8e833;
+  border-radius: 10px;
+  border: 1.5px solid #fff;
+}
+.run-content {
+  color: #ffff;
+  text-align: center;
+  font-size: 32px;
+  padding-left: 37%;
+}
+.rest-sec {
+  text-align: right;
+  position: relative;
+  top: -152px;
+  left: -140px;
+  padding: 5px;
+}
+.rest-content {
   color: #ffff;
   text-align: right;
-  padding: 6px;
+  font-size: 32px;
+  padding-left: 37%;
+}
+.laught-sec {
+  text-align: right;
+  position: relative;
+  top: -152px;
+  left: -140px;
+  padding: 5px;
+}
+.laught-content {
+  color: #ffff;
+  text-align: right;
+  font-size: 32px;
+  padding-left: 37%;
 }
 /* sec-eight-end */
 
