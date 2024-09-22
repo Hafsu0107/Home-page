@@ -613,9 +613,16 @@ h2.reviews {
   background-color: black;
 }
 .slider-two {
-  justify-content: space-evenly;
   display: flex;
+  justify-content: center;
+  gap: 1%;
 }
+.running-img {
+  height: 400px;
+  border-radius: 15px;
+  width: 274px;
+}
+
 .mini-sec {
   text-align: right;
   position: relative;
