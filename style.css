@@ -614,6 +614,7 @@ h2.reviews {
 /* sec-eight-start */
 .homepage-eight-section {
   background-color: black;
+  height: 51em;
 }
 .slider-two {
   display: flex;
@@ -621,17 +622,14 @@ h2.reviews {
   gap: 1%;
 }
 .running-img {
-  height: 400px;
   border-radius: 15px;
-  width: 274px;
+  width: 304px;
 }
 
-/* .run-sec {
+.run-sec {
   text-align: right;
-  position: relative;
-  top: -152px;
-  left: -14px;
   padding: 5px;
+  margin-top: -50%;
 }
 h2.story-that-move {
   font-size: 52px;
@@ -648,52 +646,58 @@ h2.story-that-move {
   border-radius: 10px;
   border: 1.5px solid #fff;
 }
+.running-sec {
+  display: flex;
+  flex-direction: column;
+}
 .run-content {
   color: #ffff;
-  text-align: center;
+
   font-size: 32px;
-  padding-left: 37%;
+}
+.rest {
+  display: flex;
+  flex-direction: column;
 }
 .rest-sec {
   text-align: right;
-  position: relative;
-  top: -152px;
-  left: -13px;
   padding: 5px;
+  margin-top: -49%;
+  width: 91%;
 }
 .rest-content {
   color: #ffff;
-  text-align: center;
   font-size: 32px;
-  padding-left: 21%;
+}
+
+.laught {
+  display: flex;
+  flex-direction: column;
 }
 .laught-sec {
   text-align: right;
-  position: relative;
-  top: -140px;
-  left: -140px;
   padding: 6px;
+  margin-top: -48%;
 }
 .laught-content {
   color: #ffff;
-  text-align: center;
   font-size: 24px;
-  width: 73%;
-  margin-left: 133px;
+}
+.black {
+  display: flex;
+  flex-direction: column;
 }
 .black-sec {
   text-align: right;
-  position: relative;
-  top: -152px;
-  left: -140px;
   padding: 5px;
+  margin-top: -42%;
 }
 .black-content {
   color: #ffff;
   text-align: right;
   font-size: 32px;
   padding-left: 37%;
-} */
+}
 /* sec-eight-end */
 
 /* sec-nine-start */
