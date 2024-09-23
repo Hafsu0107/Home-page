@@ -267,12 +267,12 @@ img.black-red-socks:hover {
 }
 /* sec-two-end */
 /* last-sec-start */
-.p-page-last-section {
-  margin-top: 3%;
+.homepage-last-section {
   background-color: black;
   color: #fff;
   max-width: 110%;
-  padding: 14px;
+  margin-top: -13px;
+  padding-top: 5%;
 }
 .flex {
   display: flex;
@@ -281,42 +281,51 @@ img.black-red-socks:hover {
   text-align: right;
   padding: 21px;
 }
-.second {
+ul {
   list-style: none;
   line-height: 32px;
 }
+
 li {
   padding: 5px;
-  list-style: none;
+}
+.shop {
+  margin-top: -4%;
 }
 .flag {
   text-align: right;
-  padding-right: 72px;
+  padding-right: 85px;
+}
+.stay-in-the-loops {
+  margin-top: -7%;
 }
 .stay {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 300;
-  line-height: 41.2px;
+  line-height: 47.2px;
   text-align: right;
   color: lightgray;
+  border-bottom: 1px solid #fff;
 }
 .website-name {
   text-align: right;
-  padding-right: 66px;
+  padding-right: 89px;
 }
 
 .links {
   display: flex;
   justify-content: center;
-  padding: 23px;
+  padding: 83px;
+}
+.tiktok-ig {
+  margin-top: 1%;
 }
 
 .policy {
   display: flex;
-  gap: 82px;
-  list-style: none;
+  gap: 86px;
 }
+/* last-sec-end */
 .clean-results {
   border-bottom: 1px solid black;
   padding: 20px;

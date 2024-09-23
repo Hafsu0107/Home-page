@@ -11,9 +11,9 @@
     <section class="product-page">
       <header>
         <div class="black-friday">
-          <p class="discount">מבצע BLACK FRIDAY - עד 70% הנחה בכל האתר</p>
+          <p class="discount">עד 70% הנחה בכל האתר - BLACK FRIDAY מבצע</p>
         </div>
-        <div class="header-components">
+        <div class="top-bar">
           <div class="header-icons">
             <button class="search-icon">
               <svg
@@ -42,36 +42,39 @@
                 ></path>
               </svg>
             </button>
-            <a
-              class="people-icon"
-              href="/account/login"
-              tabindex="0"
-              aria-label="חשבון"
-            >
-              <svg
-                class=""
-                width="35"
-                height="35"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+            <button class="people-icon">
+              <a
+                class="people-icon"
+                href="/account/login"
+                tabindex="0"
+                aria-label="חשבון"
               >
-                <circle
-                  cx="12"
-                  cy="8"
-                  r="4.75"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                ></circle>
-                <path
-                  d="M20 21C20 16.5817 16.4183 13 12 13C7.58172 13 4 16.5817 4 21"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-              </svg>
-            </a>
+                <svg
+                  class=""
+                  width="35"
+                  height="35"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="8"
+                    r="4.75"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  ></circle>
+                  <path
+                    d="M20 21C20 16.5817 16.4183 13 12 13C7.58172 13 4 16.5817 4 21"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </a>
+            </button>
+
             <button class="card-icon">
               <div class="header_cart-icon">
                 <svg
@@ -100,64 +103,52 @@
             </button>
           </div>
 
-          <div class="header-nav">
+          <nav class="header-nav">
             <ul class="navigations">
               <li>
-                <a href="#" class="item-gift-card" aria-label="Gift card">
-                  <span class="underline-text__label">חנות הכל</span>
+                <a
+                  href="product.html"
+                  class="item-gift-card"
+                  aria-label="Gift card"
+                >
+                  <span>כל הפריטים</span>
                 </a>
               </li>
               <li>
                 <a
-                  href="/collections/accessories"
+                  href="shop.html"
                   class="item--accessories"
                   aria-label="Accessories"
                 >
-                  <span class="underline-text__label">אביזרים</span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://penguindojo.com/tools/perfect-product-finder/sock-finder"
-                  class="item-sock-finder"
-                  aria-label="SOCK FINDER"
-                >
-                  <span class="underline-text__label"
-                    ><span style="color: #4ab3aa"
-                      ><strong>גרביים בהתאמה אישית</strong></span
-                    ></span
-                  >
-                </a>
-              </li>
-              <li>
-                <a
-                  href="shop index.html"
-                  class="item--contact"
-                  aria-label="Contact"
-                >
-                  <span class="underline-text__label">הנמכרים ביותר</span>
+                  <span>גרבי כושר</span>
                 </a>
               </li>
               <li>
                 <a
                   href="contact.html"
-                  class="item-women"
-                  aria-label="Women"
+                  class="item-sock-finder"
+                  aria-label="SOCK FINDER"
                 >
-                  <span class="underline-text__label">נשים</span>
+                  <span>גרבי טיולים</span>
                 </a>
               </li>
               <li>
-                <a
-                  href="/collections/all-socks"
-                  class="item-men"
-                  aria-label="Men"
-                >
-                  <span class="underline-text__label">גברים</span>
+                <a href="faqs.html" class="item--contact" aria-label="Contact">
+                  <span>גרבי רכיבה</span>
+                </a>
+              </li>
+              <li>
+                <a href="about.html" class="item-women" aria-label="Women">
+                  <span>גרבי ריצה</span>
+                </a>
+              </li>
+              <li>
+                <a href="blog.html" class="item-men" aria-label="Men">
+                  <span> <strong>SALE</strong></span>
                 </a>
               </li>
             </ul>
-          </div>
+          </nav>
           <div class="logo-header">
             <img
               src="https://penguindojo.com/cdn/shop/files/logo_full.png?v=1721736690&width=600"
@@ -169,7 +160,7 @@
         </div>
         <div class="images">
           <div class="image-one">
-            <img src="images/image-one.png" alt=""  />
+            <img src="images/image-one.png" alt="" />
           </div>
           <div class="image-two">
             <img src="images/image-two.png" alt="" />
@@ -210,17 +201,17 @@
         <div class="cold">
           <p class="cold-feet">רגליים קרירות</p>
           <img src="images/svg-3.svg" alt="" />
-          <img src="images/smal-line.svg" alt="" width="250px">
+          <img src="images/smal-line.svg" alt="" width="250px" />
         </div>
         <div class="3d">
           <p class="points">נקודות תלת מימד</p>
           <img src="images/socks.svg" alt="" />
-          <img src="images/smal-line.svg" alt="" width="250px">
+          <img src="images/smal-line.svg" alt="" width="250px" />
         </div>
         <div class="compression">
           <p class="gradient-compression">דחיסת שיפוע</p>
           <img src="images/boxes.svg" alt="" />
-          <img src="images/smal-line.svg" alt="" width="250px">
+          <img src="images/smal-line.svg" alt="" width="250px" />
         </div>
       </div>
 
@@ -243,43 +234,44 @@
           </ul>
         </div>
         <div class="now-show-sec">
-        <div class="tardly-belly-two">
-          <div class="new-arrival">כניסות חדשות</div>
-          <div class="head">
-           <p>נעליים</p>
-            <p>נשים</p>
-          </div> 
-       </div>
-        <p class="prices">₪59.00</p>
-           <div class="tardly-belly-three">
+          <div class="tardly-belly-two">
+            <div class="new-arrival">כניסות חדשות</div>
+            <div class="head">
+              <p>נעליים</p>
+              <p>נשים</p>
+            </div>
+          </div>
+          <p class="prices">₪59.00</p>
+          <div class="tardly-belly-three">
             <h1 class="no-show">
-              Tardy Belly - גרבי<br> ריצה קצרות <br />(No-Show)
+              Tardy Belly - גרבי<br />
+              ריצה קצרות <br />(No-Show)
             </h1>
-            
+
             <p class="show">
               חוויה אהבה עם גרביים שלנו, עשויים לנוחות ומניעת קרקוסים. אידיאליים
               למרוצים, עם נקודות 3D לאחיזה משופרת וזרימת דם. עיצוב מתקדם עוזר
               לשחזור מהיר. עשויים בישראל מסיבות ממוחזרות, גרביים ירוקים המציעים
               נוחות עם למעט של קיימות.
             </p>
-           
+
             <div class="men-women-btns">
               <button class="women">של נשים</button>
               <button class="men">של גברים</button>
             </div>
             <div class="colors">
               <p class="socks-p">אָדוֹם</p>
-              <img src="images/3-socks.png" alt="" class="socks-images" /> 
+              <img src="images/3-socks.png" alt="" class="socks-images" />
             </div>
 
             <div class="us-women-sizes">
               <h4 class="us-sizes">מידות נשים בארה"ב</h4>
               <div class="paragraph">
                 <p class="twoo">1-3</p>
-              <p class="twoo">4-5</p>
-              <p class="twoo">6-7</p>
-              <p class="twoo">8-10</p>
-              <p class="twoo">11-14</p>
+                <p class="twoo">4-5</p>
+                <p class="twoo">6-7</p>
+                <p class="twoo">8-10</p>
+                <p class="twoo">11-14</p>
               </div>
               <p class="size-chart">טבלת מידות</p>
               <button class="add-to-cart">הוסף לעגלה</button>
@@ -289,26 +281,25 @@
               </p>
               <div class="eliipse">
                 <div class="elipse-one">
-                <img src="images/Ellipse 25.png" alt=""  height="70px"/>
-                <p class="elip">תמיכת קשת</p>
+                  <img src="images/Ellipse 25.png" alt="" height="70px" />
+                  <p class="elip">תמיכת קשת</p>
                 </div>
                 <div class="eliipse-two">
-                  <img src="images/Ellipse 26.png" alt=""  height="70px"/>
+                  <img src="images/Ellipse 26.png" alt="" height="70px" />
                   <p class="elip">ויסות טמפרטורה</p>
                 </div>
                 <div class="eliipse-three">
-                  <img src="images/Ellipse 27.png" alt=""  height="70px"/>
+                  <img src="images/Ellipse 27.png" alt="" height="70px" />
                   <p class="elip">עיצובים מסוגננים</p>
                 </div>
                 <div class="eliipse-four">
-                  <img src="images/Ellipse 28.png" alt=""  height="70px"/>
+                  <img src="images/Ellipse 28.png" alt="" height="70px" />
                   <p class="elip">אנחנו נגד הם</p>
                 </div>
               </div>
             </div>
           </div>
-          </div>
-        
+        </div>
 
         <div class="tardly-belly">
           <div class="para">
@@ -487,146 +478,163 @@
     <!-- sec-five-end -->
 
     <!-- sec-six-start -->
+    <!-- Homepage-fourth-sec-start -->
     <section class="homepage-fourth-section">
-      <h1 class="best-seller">נצפה ביחד</h1>
+      <h2 class="best-seller">האוספים האחרונים</h2>
       <div class="seller-one">
-        <div class="lazy-foot">
-          <img class="navy-socks"
-            src="images/nav-blue.png" 
-          /> 
-          <button class="quick-now">Quick now</button>
-          <div class="paragraphs">
-          <p >Lazy Foot - גרבי ריצה קצרות (ללא הופעה)</p>
-          <p>
-            ביקורות 36 <img src="images/star-svg.svg" alt="" />
-            <p >₪ 67.00</p>
-            <div class="clr-img"><img src="images/clr-1.png" alt="" /></div>
-          </p>
+        <div class="product-card">
+          <div class="background-img">
+            <button class="quick-now">Quick-now</button>
           </div>
-        </div>
-
-        <div class="tardly-belly-two">
-          <img class="grey-black-socks"
-            src="images/red.png" 
-          /> 
-          <button class="quick-now">Quick now</button>
-          <button class="sale">Sale</button>
-          <button class="selling-fast">Selling-fast</button>
-          
-          <div class="paragraphs">
-          <p >טארדי בטן - גרבי ריצה קצרות (ללא הופעה)</p>
-          <p>
-           ביקורות 36<img src="images/star-svg.svg" alt="" />
-           </p>
-           <div class="prices">
-            <p class="old-price">₪ 67.00</p>
-             <p class="current-price">₪ 59.00</p>
-             </div>
-            <div class="clr-img"><img src="images/clr-2.png" alt="" />
+          <div class="content">
+            <h3 class="content-heading">
+              Lazy Foot - גרבי ריצה קצרות (ללא הופעה)
+            </h3>
+            <div class="content-ratting-star">
+              <img
+                src="images/Group 324.png"
+                alt="ratting-star"
+                class="ratting-star"
+              />
+              <p class="review">ביקורות 36</p>
             </div>
+            <p class="rate">₪ 67.00</p>
+            <div class="clr-img"><img src="images/Group 362.png" alt="" /></div>
           </div>
         </div>
 
-        <div class="jockey-brightened">
-           <img class="black-red-socks"
-            src="images/black-red.png"  
-          /> 
-          <button class="quick-now">Quick now</button>
-          
-          <div class="paragraphs">
-          <p>ג'וקי פינגווין - גרבי חצי ריצה ורכיבה (צוות)</p>
-          <p>
-           36ביקורות<img src="images/star-svg.svg" alt="" />
-            </p>
-           
-             <p >₪ 79.00</p>
-            <div class="clr-img"><img src="images/clr-3.png" alt="" />
+        <div class="product-card">
+          <div class="background-img-two">
+            <button class="quick-now">Quick now</button>
+            <button class="sale">Sale</button>
+            <button class="selling-fast">Selling-fast</button>
+          </div>
+
+          <div class="content">
+            <h3 class="content-heading">
+              טארדי בטן - גרבי ריצה קצרות (ללא הופעה)
+            </h3>
+            <div class="content-ratting-star">
+              <img
+                src="images/Group 324.png"
+                alt="ratting-star"
+                class="ratting-star"
+              />
+              <p class="review">ביקורות 36</p>
             </div>
+            <div class="prices">
+              <p class="current-price">₪ 59.00</p>
+              <p class="old-price">₪ 67.00</p>
+            </div>
+            <div class="clr-img"><img src="images/Group 360.png" alt="" /></div>
           </div>
-          
         </div>
-        
-
-        <div class="brightcyan">
-           <img class="sky-blue-socks"
-            src="images/sky-blue.png"  
-          /> 
-          <button class="quick-now">Quick now</button>
-          <div class="paragraphs">
-          <p>Lazy Foot - גרבי ריצה קצרות (ללא הופעה)</p>
-          <p>
-            36 ביקורות<img src="images/star-svg.svg" alt="" />
-          </p>
-          <p >₪ 67.00</p>
-           <div class="clr-img"><img src="images/clr-4.png" alt="" />
-           </div>
+        <div class="product-card">
+          <div class="background-img-three">
+            <button class="quick-now">Quick now</button>
+          </div>
+          <div class="content">
+            <h3 class="content-heading">
+              ג'וקי פינגווין - גרבי חצי ריצה ורכיבה (צוות)
+            </h3>
+            <div class="content-ratting-star">
+              <img
+                src="images/Group 324.png"
+                alt="ratting-star"
+                class="ratting-star"
+              />
+              <p class="review">ביקורות 36</p>
+            </div>
+            <p class="rate">₪ 79.00</p>
+            <div class="clr-img"><img src="images/Group 362.png" alt="" /></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="background-img">
+            <button class="quick-now">Quick-now</button>
+          </div>
+          <div class="content">
+            <h3 class="content-heading">
+              Lazy Foot - גרבי ריצה קצרות (ללא הופעה)
+            </h3>
+            <div class="content-ratting-star">
+              <img
+                src="images/Group 324.png"
+                alt="ratting-star"
+                class="ratting-star"
+              />
+              <p class="review">ביקורות 36</p>
+            </div>
+            <p class="rate">₪ 67.00</p>
+            <div class="clr-img"><img src="images/Group 362.png" alt="" /></div>
+          </div>
         </div>
       </div>
     </section>
+    <!-- sec-fourth-end -->
     <!-- sec-six-end -->
     <!-- P-page-last-sec -->
     <footer>
-    <section class="homepage-last-section">
-      <div class="flex">
-        <div class="about">
-          <h2>על און</h2>
-          <ul class="second">
-          <li>צור קשר</li>
-          <li>לִקְנוֹת</li>
-          <li>משקיעים</li>
-          <li>משקיעים</li>
+      <section class="homepage-last-section">
+        <div class="flex">
+          <div class="about">
+            <h2>על און</h2>
+            <ul class="second">
+              <li>צור קשר</li>
+              <li>לִקְנוֹת</li>
+              <li>משקיעים</li>
+              <li>משקיעים</li>
+            </ul>
+          </div>
+
+          <div class="help-support">
+            <h2>עזרה תמיכה</h2>
+            <ul class="second">
+              <li>צור קשר</li>
+              <li>שאלות נפוצות</li>
+              <li>משלוח ומסירה</li>
+              <li>החזרות והחלפות</li>
+            </ul>
+          </div>
+
+          <div class="shop">
+            <h2 class="shop-heading">התחברות/הרשמה</h2>
+            <h2 class="shop-heading">סטטוס הזמנה</h2>
+            <h2 class="shop-heading">הפנה חבר</h2>
+            <h2 class="shop-heading">GiftCard</h2>
+            <h2 class="shop-heading">חנויות</h2>
+          </div>
+
+          <div class="stay-in-the-loops">
+            <img src="images/footer-logo.png" alt="" class="footer-logo" />
+            <p class="stay">
+              הישאר מעודכן, עם הצעות בלעדיות ותצוגות מקדימות של מוצרים. <br />
+              אימייל
+            </p>
+          </div>
+        </div>
+        <div class="flag">
+          ארצות הברית <img src="images/small-flag.png" alt="" />
+        </div>
+        <div class="website-name">Penguin Dojo 2023 ©</div>
+        <div class="links">
+          <div class="tiktok-ig">
+            <img src="images/Group 117.png" alt="" class="tiktok-ig" />
+          </div>
+
+          <ul class="policy">
+            <li>מדיניות הפרטיות</li>
+            <li>נְגִישׁוּת</li>
+            <li>חוֹתָם</li>
+            <li>דיווח על פגיעות</li>
+            <li>אל תמכור את המידע האישי שלי</li>
+            <li>הגדרות הסכמה</li>
           </ul>
         </div>
-
-        <div class="help-support">
-          <h2>עזרה תמיכה</h2>
-          <ul class="second">
-            <li>צור קשר</li>
-            <li>שאלות נפוצות</li>
-            <li>משלוח ומסירה</li>
-            <li>החזרות והחלפות</li>
-          </ul>
-        </div>
-
-        <div class="shop">
-          <h2 class="shop-heading">התחברות/הרשמה</h2>
-          <h2 class="shop-heading">סטטוס הזמנה</h2>
-          <h2 class="shop-heading">הפנה חבר</h2>
-          <h2 class="shop-heading">GiftCard</h2>
-          <h2 class="shop-heading">חנויות</h2>
-        </div>
-
-        <div class="stay-in-the-loops">
-          <img src="images/footer-logo.png" alt="" class="footer-logo">
-          <p class="stay">הישאר מעודכן, עם הצעות בלעדיות ותצוגות מקדימות של מוצרים. <br> אימייל</p>
-        </div>
-      </div>
-      <div class="flag">ארצות הברית <img src="images/small-flag.png" alt=""></div>
-      <div class="website-name"> Penguin Dojo 2023 ©</div>
-      <div class="links">
-        <div class="tiktok-ig">
-          <img src="images/Group 117.png" alt="" class="tiktok-ig">
-
-        </div>
-        
-        <ul class="policy">
-          <li>מדיניות הפרטיות</li>
-          <li>נְגִישׁוּת</li>
-          <li>חוֹתָם</li>
-          <li>דיווח על פגיעות</li>
-          <li>אל תמכור את המידע האישי שלי</li>
-          <li>הגדרות הסכמה</li>
-        </ul>
-      </div>
-    </section>
-    <script src="app.js"></script>
-        <!-- Swiper JS -->
- 
+      </section>
+      <script src="app.js"></script>
+      <!-- Swiper JS -->
     </footer>
     <!-- last-sec-end -->
-    
-
-
-
   </body>
 </html>
