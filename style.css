@@ -594,19 +594,34 @@ h2.reviews {
 /* sec-six-end */
 
 /* sec-seven-start */
+.img-background {
+  background-image: url(images/made-by-hafsa-img-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 900px;
+}
 .proudly {
-  margin-top: -35%;
+  margin-top: -29%;
 }
-.proud-israel {
-  width: 100%;
+.proud-sec {
+  margin-top: -48%;
 }
+.made-hafsa {
+  text-align: center;
+  font-size: 81px;
+}
+.made-hafsaa {
+  font-size: 81px;
+  color: #2f7875;
+}
+
 .made-israel {
   font-size: 24px;
   font-weight: 400;
   line-height: 42.5px;
   text-align: center;
-  max-width: 61%;
   margin: auto;
+  width: 55%;
   padding: 29px;
 }
 /* sec-seven-end */
