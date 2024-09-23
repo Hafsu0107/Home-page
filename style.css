@@ -807,14 +807,20 @@ ul {
 li {
   padding: 5px;
 }
+.shop {
+  margin-top: -4%;
+}
 .flag {
   text-align: right;
   padding-right: 72px;
 }
+.stay-in-the-loops {
+  margin-top: -7%;
+}
 .stay {
   font-size: 20px;
   font-weight: 300;
-  line-height: 41.2px;
+  line-height: 47.2px;
   text-align: right;
   color: lightgray;
 }
