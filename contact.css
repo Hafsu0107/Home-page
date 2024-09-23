@@ -341,7 +341,7 @@ li {
 .links {
   display: flex;
   justify-content: center;
-  padding: 83px;
+  padding: 69px;
 }
 .tiktok-ig {
   margin-top: 1%;
@@ -352,3 +352,27 @@ li {
   gap: 86px;
 }
 /* last-sec-end */
+@media screen and (max-width: 767px) {
+  .main-container {
+    display: block;
+  }
+  .help-img {
+    max-width: 99%;
+  }
+  .contact {
+    margin-top: 9%;
+  }
+  .help-paragraph {
+    width: 57%;
+    margin: auto;
+  }
+  .address {
+    display: block;
+  }
+  .address-one {
+    width: 74%;
+  }
+  .send-message {
+    display: block;
+  }
+}
