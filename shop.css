@@ -7,39 +7,40 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 /* sec-one-start */
+/* header */
 .black-friday {
   background-color: #2f7875;
-  max-width: 100%;
+  width: 98%;
   height: 44px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
+  margin: auto;
   font-weight: 500;
   line-height: 19.36px;
-  border-radius: 55px;
+  border-radius: 16px;
   text-align: center;
+  margin-top: 5px;
 }
 .discount {
   padding: 11px;
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
 }
-.header-components {
+.top-bar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 9px;
-  cursor: pointer;
+}
+a {
+  text-decoration: none;
 }
 .navigations {
   display: inline-flex;
-  column-gap: 27px;
+  column-gap: 22px;
   list-style: none;
-  padding-top: 14px;
+  padding-top: 9px;
 }
 .header-icons {
   padding: 13px;
-}
-a {
-  color: #000000;
 }
 
 .search-icon {
@@ -63,23 +64,20 @@ svg {
 }
 .shop-now {
   background-color: #fff;
+  margin-top: 15px;
+  margin-right: 6px;
   color: black;
-  padding: 1.2rem 3.2rem;
-  border-radius: 60px;
+  border-radius: 65.77px;
   border: 1px solid transparent;
+  width: 125px;
   cursor: pointer;
-  font-family: "system-ui";
   font-weight: lighter;
-  letter-spacing: 1px;
-  font-size: medium;
-  margin-bottom: 15px;
-}
-a.shop-btn {
-  color: black;
-  list-style: none;
+
+  padding: 19px;
+  font-size: 15px;
 }
 .womens {
-  background-image: url(images/women-socks.png);
+  background-image: url(images/women-socks-two.png);
   background-size: cover;
   text-align: right;
   padding: 36px;
@@ -87,7 +85,7 @@ a.shop-btn {
 }
 .w-socks-heading {
   font-size: 96px;
-  font-weight: 500;
+  font-weight: 100;
   line-height: 116.18px;
 }
 .women-socks-para {
@@ -102,11 +100,16 @@ a.shop-btn {
   list-style: none;
   padding: 32px;
 }
+.btn-svg {
+  text-align: center;
+}
 .hidden {
   background-color: black;
   color: #fff;
-  padding: 10px;
   border-radius: 30px;
+  width: 13%;
+  height: 43px;
+  text-align: center;
 }
 /* sec-four-start */
 h1.best-seller {
@@ -117,33 +120,124 @@ h1.best-seller {
   text-align: center;
   padding: 22px;
 }
-
-img.navy-socks {
-  background-image: url(images/shope-page-rec.png);
-  border-radius: 13px;
-  max-width: 282px;
-  height: 306px;
-  transition: 0.9s ease-out;
+.background-img {
+  background-image: url(images/navy-blue-smallpics.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  width: 297px;
+  transition: transform 2s; /* Animation */
+  height: 312px;
 }
-img.navy-socks:hover {
-  transform: translateY(9px);
+.background-img:hover {
+  transform: scale(1.1);
 }
-img.navy-socks:hover + .quick-now {
-  display: block;
+.background-img-two {
+  background-image: url(images/black-half-socks.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  width: 297px;
+  transition: transform 2s;
+  height: 312px;
 }
-
+.background-img-two:hover {
+  transform: scale(1.1);
+}
+.background-img-three {
+  background-image: url(images/full-socks.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  transition: transform 2s;
+  width: 284px;
+  height: 318px;
+}
+.background-img-three:hover {
+  transform: scale(1.1);
+}
+.background-img-four {
+  background-image: url(images/navy-blue-smallpics.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  transition: transform 2s;
+  width: 297px;
+  height: 312px;
+}
+.background-img-four:hover {
+  transform: scale(1.1);
+}
+.content {
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  padding-top: 8px;
+}
+.content-heading {
+  font-weight: 100;
+  line-height: 34.78px;
+  text-align: right;
+  font-size: 18px;
+}
+.content-ratting-star {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 36px;
+  gap: 9px;
+}
+.review {
+  font-size: 14px;
+  font-weight: 100;
+  text-align: right;
+  line-height: 21.78px;
+}
+.ratting-star {
+  text-align: center;
+  height: 18px;
+}
+.rate {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 42.15px;
+}
 .quick-now {
+  width: 95%;
   background-color: black;
   color: #fff;
-  padding: 9px;
-  cursor: pointer;
-  font-size: 15px;
-  border-radius: 20px;
-  width: 192px;
-  display: none;
+  border: none;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 0.5em;
+  border-radius: 7px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.prices {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 42.15px;
+  gap: 14px;
 }
 
-p {
+.old-price {
+  text-decoration: line-through;
+  color: grey;
+  opacity: 0.5;
+  font-size: 14px;
+}
+.current-price {
+  color: green;
+  font-weight: 100;
+}
+
+/* p {
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -165,7 +259,7 @@ p {
   color: green;
   margin-left: 13px;
   font-weight: 500;
-}
+} */
 .selling-fast {
   background-color: blue;
   padding: 9px;
@@ -254,13 +348,15 @@ img.black-red-socks:hover {
 .show-more {
   background-color: black;
   color: #fff;
-  padding: 7px;
-  border-radius: 5px;
+  border-radius: 7px;
+  border: none;
   font-size: 20px;
   font-weight: 400;
   line-height: 24.2px;
   text-align: center;
-  max-width: 16%;
+  width: 231px;
+  height: 53px;
+  margin-top: 5%;
 }
 .show {
   text-align: center;
