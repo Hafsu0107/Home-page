@@ -88,7 +88,6 @@ svg {
 }
 .plus {
   display: flex;
-  margin-left: 358px;
 }
 .product-p {
   font-size: 20px;
@@ -127,7 +126,6 @@ svg {
 }
 .minus {
   display: flex;
-  margin-left: 358px;
 }
 .restock-again {
   width: 89%;
@@ -221,6 +219,19 @@ svg {
   margin-top: 14px;
   padding-top: 5%;
 }
+.out-of-stock {
+  max-width: 550px;
+  margin-left: 30%;
+}
+.do-the-products {
+  max-width: 550px;
+  margin-left: 30%;
+}
+.sold-out {
+  max-width: 550px;
+  margin-left: 30%;
+}
+
 .flex {
   display: flex;
   justify-content: space-evenly;
